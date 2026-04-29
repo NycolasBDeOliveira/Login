@@ -9,10 +9,10 @@ body{
 
     background: linear-gradient(
       135deg,
-      #1e0938,
-      #4c1d95,
-      #7e22ce,
-      #be185d
+      #0f172a,
+      #1e3a8a,
+      #1d4ed8,
+      #0ea5e9
     );
 
     background-size:250% 250%;
@@ -57,7 +57,7 @@ body{
     border-radius:24px;
 
     box-shadow:
-      0 14px 30px rgba(30,0,60,.28);
+      0 14px 30px rgba(0,40,120,.28);
 
     transition:.4s;
 }
@@ -74,7 +74,7 @@ body{
     margin-bottom:25px;
 }
 
-/* Botão com neon menor */
+/* Botão azul neon sutil */
 .btn{
     width:100%;
     padding:14px;
@@ -84,8 +84,8 @@ body{
 
     background:linear-gradient(
       90deg,
-      #9333ea,
-      #db2777
+      #2563eb,
+      #38bdf8
     );
 
     color:white;
@@ -100,5 +100,5 @@ body{
     transform:scale(1.02);
 
     box-shadow:
-      0 0 8px rgba(219,39,119,.25);
+      0 0 8px rgba(56,189,248,.25);
 }

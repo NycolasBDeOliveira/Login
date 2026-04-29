@@ -1,21 +1,25 @@
-.input-group{ margin-bottom: 15px; }
+.input-group{
+    margin-bottom:15px;
+}
 
 .input-group input{
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
 }
 
 .input-group input:focus{
-    border-color: #667eea;
-    outline: none;
+    border-color:#667eea;
+    outline:none;
 }
 
 .json-box{
-    margin-top: 20px;
-    background: #f4f4f4;
-    padding: 10px;
-    border-radius: 6px;
-    font-size: 12px;
+    margin-top:20px;
+    background:#ffffff;
+    color:black; /* fonte preta */
+
+    padding:10px;
+    border-radius:6px;
+    font-size:12px;
 }
