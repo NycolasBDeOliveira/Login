@@ -1,0 +1,48 @@
+.dev-card{
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 
+    0 8px 20px rgba(0,0,0,0.25),
+    inset 0 1px 1px rgba(255,255,255,0.08);
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.dev-card::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    #9333ea,
+    #6366f1,
+    #38bdf8
+  );
+}
+
+.dev-card:hover{
+  transform: translateY(-6px) scale(1.02);
+  border-color: rgba(147,51,234,0.5);
+  box-shadow:
+    0 12px 30px rgba(0,0,0,0.35),
+    0 0 20px rgba(147,51,234,0.3);
+}
+
+.dev-card h3{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.dev-card p{
+  font-size: 14px;
+  line-height: 1.6;
+}
